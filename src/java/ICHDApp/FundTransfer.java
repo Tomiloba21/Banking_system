@@ -1,4 +1,4 @@
-package src.java;
+package ICHDApp;
 
 public class FundTransfer {
 

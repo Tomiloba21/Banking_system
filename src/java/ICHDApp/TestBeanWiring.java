@@ -1,4 +1,4 @@
-
+package ICHDApp;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -10,11 +10,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  *
- * @author admin
+ * @author admin-Tomiloba Olowo
  */
 public class TestBeanWiring {
     public static void main(String[] args) {
-        ApplicationContext ac = new ClassPathXmlApplicationContext("Spring-Config.xml");
+        ApplicationContext ac = new ClassPathXmlApplicationContext("ICHDApp/Spring-Config.xml");
         
         Customer customer = (Customer) ac.getBean("CustomerBean");
         System.out.println("The values are : ");

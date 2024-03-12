@@ -1,3 +1,5 @@
+package ICHDApp;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -14,6 +16,7 @@ public class Customer {
     private String middleName;
     private String lastName;
     private String dateOfBirth;
+    private String monthOfBirth;
     private String yearOfBirth;
     private String motherName;
     private String emailID;
@@ -284,6 +287,20 @@ public class Customer {
      */
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    /**
+     * @return the monthOfBirth
+     */
+    public String getMonthOfBirth() {
+        return monthOfBirth;
+    }
+
+    /**
+     * @param monthOfBirth the monthOfBirth to set
+     */
+    public void setMonthOfBirth(String monthOfBirth) {
+        this.monthOfBirth = monthOfBirth;
     }
 
 
