@@ -14,7 +14,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class TestBeanWiring {
     public static void main(String[] args) {
-        ApplicationContext ac = new ClassPathXmlApplicationContext("Banking_system.Spring-config.xml");
+        ApplicationContext ac = new ClassPathXmlApplicationContext("Spring-Config.xml");
         
         Customer customer = (Customer) ac.getBean("CustomerBean");
         System.out.println("The values are : ");
