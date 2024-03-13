@@ -11,7 +11,6 @@ package ICHDApp;
  */
 public class Customer {
     private String accountName;
-
     private String firstName;
     private String middleName;
     private String lastName;

@@ -18,7 +18,7 @@ public class TestBeanWiring {
         
         Customer customer = (Customer) ac.getBean("CustomerBean");
         System.out.println("The values are : ");
-        System.out.println(customer.getFirstName());
+        System.out.println(customer.getFirstName()+"." + customer.getMiddleName()+"." +customer.getLastName());
         System.out.println(customer.getMiddleName());
         System.out.println(customer.getLastName());
 
