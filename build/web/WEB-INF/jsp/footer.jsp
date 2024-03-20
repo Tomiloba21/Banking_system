@@ -8,12 +8,12 @@
 <table width="775" border="0" align="center" cellpadding="0" cellspacing="0">
     <tr>
         <td width="799" bgcolor="#12472">
-    <center>
-        <p style="color: #FFFFFFf; font-size-adjust: 2; font-family: verdana,Arial,Hevetica,san-serif">
-            Copyright &copy;2024 ICHD
-            
-        </p>
-    </center>
+            <center>
+                <p style="color: #FFFFFF; font-size-adjust: 2; font-family: verdana, Arial, Helvetica, sans-serif;">
+                    Copyright &copy;2024 ICHD
+                </p>
+            </center>
+        </td>
     </tr>
-    
 </table>
+
