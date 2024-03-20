@@ -33,20 +33,19 @@
                 </td>
 
             </tr>
-
-            <td width="102" valign="top">
-
             <tr>
 
-                <%@include file= "../menu.jsp" %>
+                <td width="102" valign="top">
+
+
+
+                    <%@include file="menu.jsp" %>
 
                 </td>
 
                 <td width="601" valign="top">
 
-                    <table width="596" border="0" align="center" cellpadding-
-
-                           cellspacing="8">
+                    <table width="596" border="0" align="center" cellpadding-cellspacing="8">
 
                         <tr>
 
@@ -54,7 +53,7 @@
 
                                 <div align="right" style="color:#003366; font-size-adjust:21; font-family:Verdana">
 
-                                    <a href="index.htm">
+                                    <a href="index.html">
 
                                         Logout
 
@@ -67,47 +66,56 @@
 
                                 <table width="567" border="0" align="center" cellpadding="0" cellspacing="0">
 
-                                    <td>
+                                    <tr>
 
-                                        <div align="justify" style="color:#003366; font-size-adjust:2; font-family:Verdana">
+                                        <td>
 
-                                            <br /><br />
+                                            <div align="justify" style="color:#003366; font-size-adjust:2; font-family:Verdana">
 
-                                            ${helloMessage}
+                                                <br /><br />
 
-                                        </div>
+                                                ${helloMessage}
 
-                                    </td>
+                                            </div>
 
-                        </tr>
+                                        </td>
 
-                        <tr>
+                                    </tr>
 
-                            <td>
+                                    <tr>
 
-                                <div align="justify" style="color:#003366; font-size-adjust:27;font-family:Verdana">
+                                        <td>
 
-                                    <br /><br />
+                                            <div align="justify" style="color:#003366; font-size-adjust:27;font-family:Verdana">
 
-                                    ${accountNumber}
+                                                <br /><br />
 
-                                </div>
+                                                ${accountNumber}
+
+                                            </div>
+
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>
+
+                                            <div align="justify" style="color:#003366; font-size-adjust:2;font-family:Verdana">
+
+                                                <br /><br />
+
+                                                ${accountBalance}
+                                            </div>
+
+                                        </td>
+                                    </tr>
+
+                                </table>
 
                             </td>
 
                         </tr>
-
-                        <td>
-
-                            <div align="justify" style="color:#003366; font-size-adjust:2:
-
-                                 font-family:Verdana">
-
-                                <br /><br />
-
-                                ${accountBalance}
-
-                        </td>
 
                     </table>
 
@@ -117,16 +125,10 @@
 
         </table>
 
-    </td>
+        <%@include file="footer jap" %>
 
-</tr>
+    </body>
 
-</table>
-
-<%@include file="footer jap">
-
-           </body>
-
-           </html>
+</html>
 
 
