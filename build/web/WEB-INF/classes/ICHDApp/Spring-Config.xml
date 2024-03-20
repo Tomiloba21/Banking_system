@@ -38,21 +38,6 @@
         <constructor-arg value="10000"/>
     </bean>
     
-    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-        <property name="basename" value="/WEB-INF/messages"/>
-        <property name="cacheSeconds" value="3000"/>
-    </bean>
-    <context:component-scan base-package="controller"/>
-    <!--Configure the the @Controller programming model -->
-    <mvc:annotation-driven/>
-    
-    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB_INF/jsp/"/>
-        <property name="suffix" value=".jsp"/>
-    </bean>
-    <bean name="loginService" class="service.LoginService"/>
-    <bean id="loginController" class="controller.LoginController">
-        <property name="loginService" ref="loginService"/>
-    </bean>
+   
  
 </beans>
