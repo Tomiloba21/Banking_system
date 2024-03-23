@@ -20,7 +20,7 @@
     p:url="${jdbc.url}"
     p:username="${jdbc.username}"
     p:password="${jdbc.password}" /-->
-
+<!--    so the error tells me that there is an errore in the application contex , so i will be checking for errors on this file and also in the dispather servlet-->
     <!-- ADD PERSISTENCE SUPPORT HERE (jpa, hibernate, etc) -->
     <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
         <property name="basename" value="/WEB-INF/messages"/>
