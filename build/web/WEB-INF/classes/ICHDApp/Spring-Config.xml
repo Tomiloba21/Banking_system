@@ -7,6 +7,9 @@
    http://www.springframework.org/schema/context
    http://www.springframework.org/schema/context/spring-context-3.0.xsd"
  xmlns:mvc="http://www.springframework.org/schema/mvc">
+    
+    
+    
     <bean id="CustomerBean" class="ICHDApp.Customer">
         <property name="accountName" value="John Philip"/>
         <property name="firstName" value="John"/>

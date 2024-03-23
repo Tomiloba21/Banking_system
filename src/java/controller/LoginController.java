@@ -36,7 +36,7 @@ public class LoginController {
     }
     @RequestMapping(method = RequestMethod.POST)
     public String processForm(@ModelAttribute(value = "CUSTOMER") Customer customer,ModelMap model){
-        ApplicationContext ac = new ClassPathXmlApplicationContext("ICHDApp/Spring-config.xml");
+        ApplicationContext ac = new ClassPathXmlApplicationContext("ICHDApp/Spring-Config.xml");
         Account act = (Account) ac.getBean("AccountBean");
         String str = "Account Number: "+ act.getAccountNumber();
         
